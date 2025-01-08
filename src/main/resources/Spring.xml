@@ -4,7 +4,7 @@
         http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd
         http://www.springframework.org/schema/util http://www.springframework.org/schema/util/spring-util.xsd">
 
-    <bean id ="obj" class ="org.utsav.Alien">
+    <bean id ="alien1" class ="org.utsav.Alien" scope ="prototype">
     </bean>
 
     <bean id ="laptop" class ="org.utsav.Laptop">
